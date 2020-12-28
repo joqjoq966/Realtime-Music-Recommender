@@ -41,18 +41,32 @@ http://49.50.162.241:3000/
 ## Result
 
 ### Latency
+- 성능향상(시간단축) 비교
+```
+All(Neural CF) : Baseline 1
+v1 : Using only 1 cluster
+v2 : Using load balanced model
+```
+
 ![image](https://user-images.githubusercontent.com/18041103/101727712-5bb7ba80-3af8-11eb-86be-003d90110204.png)
 
 ### Recall
-
+- 실제 True(추천되어야 할 음악)인 것 중 모델이 True(추천한 음악)라고 예측한 비율
 ```
-실제 True(추천되어야 할 음악)인 것 중 모델이 True(추천한 음악)라고 예측한 비율
+All(Neural CF) : Baseline 1
+v1 : Using only 1 cluster
+v2 : Using load balanced model
+SVD : Baseline 2
 ```
 ![image](https://user-images.githubusercontent.com/18041103/101727721-62463200-3af8-11eb-84fe-ec28416fa0ff.png)
 
 ### Precision
+- 모델이 True(추천한 음악)라고 분류한 것 중 실제 True(추천되어야 할 음악)의 비율
 ```
-모델이 True(추천한 음악)라고 분류한 것 중 실제 True(추천되어야 할 음악)의 비율
+All(Neural CF) : Baseline 1
+v1 : Using only 1 cluster
+v2 : Using load balanced model
+SVD : Baseline 2
 ```
 ![image](https://user-images.githubusercontent.com/18041103/101727737-6a05d680-3af8-11eb-83c1-be0693cbe069.png)
 
