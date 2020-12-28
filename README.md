@@ -5,7 +5,7 @@
 추천시스템의 실시간성 향상을 위한 Load Balanced Music Recommender model 제작
 < Tag입력시 해당Tag와 관련된 음악 추천 >
 
-1. 기간 : 2020.09 ~ 2020.12)
+1. 기간 : 2020.09 ~ 2020.12
 2. 내용 : 로드밸런싱을 이용한 추천시스템의 실시간성 향상
 3. 개인 기여
 - Data process 
@@ -19,8 +19,13 @@
 5. 결과요약 
 - 베이스라인 모델 대비 약 4~6배 성능향상(latency 측정) --> Neural CF 모델과 비교
 - 정확성 저하X(Recall, Precision 측정) --> Neural CF, SVD 모델과 비교
-
 ```
+Contributors
+- joqjoq966 (https://github.com/joqjoq966)
+- csy1204 (https://github.com/csy1204)
+- sallyeric (https://github.com/sallyeric)
+
+
 
 ## Env
 
