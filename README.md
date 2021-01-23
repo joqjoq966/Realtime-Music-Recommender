@@ -11,7 +11,7 @@
 - Data process 
 - Embedding(Skip-Gram model) 
 - Clustering(Kmeans Clustering)
-- Load Balancer(self made algorithm)
+- Load Balancer
 4. Challenge
 - 데이터의 범위 설정 및 전처리
 - 새로운 기술의 습득 및 적용
